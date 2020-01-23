@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/seMethods.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,8 @@
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.main/Dockerfile" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.main/Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +111,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.3955322" />
           <treeState>
             <expand>
               <path>
@@ -118,6 +122,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -239,22 +248,26 @@
     </state>
     <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579804651287" />
     <state x="57" y="64" key="CommitChangelistDialog2/51.23.1389.877@51.23.1389.877" timestamp="1579802462007" />
-    <state width="370" height="230" key="GridCell.Tab.0.bottom" timestamp="1579803124630">
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom" timestamp="1579806448693">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1579803124630" />
-    <state width="370" height="230" key="GridCell.Tab.0.center" timestamp="1579803124628">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579806306456" />
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1579806448693" />
+    <state width="1342" height="230" key="GridCell.Tab.0.center" timestamp="1579806448691">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1579803124628" />
-    <state width="370" height="230" key="GridCell.Tab.0.left" timestamp="1579803124626">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579806306450" />
+    <state width="1342" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1579806448691" />
+    <state width="1342" height="230" key="GridCell.Tab.0.left" timestamp="1579806448691">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1579803124626" />
-    <state width="370" height="230" key="GridCell.Tab.0.right" timestamp="1579803124629">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579806306450" />
+    <state width="1342" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1579806448691" />
+    <state width="1342" height="230" key="GridCell.Tab.0.right" timestamp="1579806448693">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1579803124629" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579806306454" />
+    <state width="1342" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1579806448693" />
     <state x="-135" y="178" key="SettingsEditor" timestamp="1579803550450">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
