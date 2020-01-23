@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="First commit, adding initial files.">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579801555580</updated>
       <workItem from="1579801557821" duration="1704000" />
+      <workItem from="1579803770902" duration="257000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1579802235962</created>
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579802313875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="travis 1.">
+      <created>1579803962424</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579803962424</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, adding initial files." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit, adding initial files." />
+    <MESSAGE value="travis 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="travis 1." />
   </component>
   <component name="WindowStateProjectService">
     <state x="51" y="127" key="#Notifications" timestamp="1579802264640">
@@ -174,9 +181,10 @@
       <screen x="51" y="23" width="1389" height="877" />
     </state>
     <state x="210" y="127" key="#Project_Structure/51.23.1389.877@51.23.1389.877" timestamp="1579801661509" />
-    <state x="57" y="64" key="CommitChangelistDialog2" timestamp="1579802462007">
-      <screen x="51" y="23" width="1389" height="877" />
+    <state x="55" y="64" key="CommitChangelistDialog2" timestamp="1579803962188">
+      <screen x="49" y="23" width="1391" height="877" />
     </state>
+    <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579803962188" />
     <state x="57" y="64" key="CommitChangelistDialog2/51.23.1389.877@51.23.1389.877" timestamp="1579802462007" />
     <state width="370" height="230" key="GridCell.Tab.0.bottom" timestamp="1579803124630">
       <screen x="49" y="23" width="1391" height="877" />
@@ -199,9 +207,10 @@
     </state>
     <state x="-135" y="178" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1579803550450" />
     <state x="119" y="100" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1579801636872" />
-    <state x="51" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579802370994">
-      <screen x="51" y="23" width="1389" height="877" />
+    <state x="49" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579804025268">
+      <screen x="49" y="23" width="1391" height="877" />
     </state>
+    <state x="49" y="201" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1579804025268" />
     <state x="51" y="201" key="Vcs.Push.Dialog.v2/51.23.1389.877@51.23.1389.877" timestamp="1579802370994" />
     <state x="189" y="260" key="git4idea.merge.GitPullDialog" timestamp="1579802125422">
       <screen x="51" y="23" width="1389" height="877" />
