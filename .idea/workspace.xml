@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="" />
+    <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -76,6 +82,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="testtesttesttesttesttest" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="mongo:latest" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
@@ -95,9 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.main/Dockerfile" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579801555580</updated>
       <workItem from="1579801557821" duration="1704000" />
-      <workItem from="1579803770902" duration="539000" />
+      <workItem from="1579803770902" duration="1775000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1579802235962</created>
@@ -184,21 +204,56 @@
       <option name="project" value="LOCAL" />
       <updated>1579804220358</updated>
     </task>
-    <task id="LOCAL-00007" summary="adding badges">
-      <created>1579806706691</created>
+    <task id="LOCAL-00007" summary="read me update">
+      <created>1579804359852</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1579806706691</updated>
+      <updated>1579804359852</updated>
     </task>
-    <task id="LOCAL-00008" summary="adding badges">
-      <created>1579806911049</created>
+    <task id="LOCAL-00008" summary="just2bsave">
+      <created>1579804460093</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1579806911049</updated>
+      <updated>1579804460093</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="badge update">
+      <created>1579804570558</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804570558</updated>
+    </task>
+    <task id="LOCAL-00010" summary="badge update">
+      <created>1579804651519</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804651519</updated>
+    </task>
+    <task id="LOCAL-00011" summary="badge update">
+      <created>1579804826032</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804826032</updated>
+    </task>
+    <task id="LOCAL-00012" summary="POM Update">
+      <created>1579804984083</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804984083</updated>
+    </task>
+    <task id="LOCAL-00013" summary="App Update_mongoDB">
+      <created>1579805055004</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579805055004</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,9 +264,18 @@
     <MESSAGE value="travis 1." />
     <MESSAGE value="travis status" />
     <MESSAGE value="adding badges" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding badges" />
+    <MESSAGE value="read me update" />
+    <MESSAGE value="just2bsave" />
+    <MESSAGE value="badge update" />
+    <MESSAGE value="POM Update" />
+    <MESSAGE value="App Update_mongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="App Update_mongoDB" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="195" y="174" key="#Docker_Image" timestamp="1579805547797">
+      <screen x="49" y="23" width="1391" height="877" />
+    </state>
+    <state x="195" y="174" key="#Docker_Image/49.23.1391.877@49.23.1391.877" timestamp="1579805547797" />
     <state x="51" y="127" key="#Notifications" timestamp="1579802264640">
       <screen x="51" y="23" width="1389" height="877" />
     </state>
@@ -220,52 +284,44 @@
       <screen x="51" y="23" width="1389" height="877" />
     </state>
     <state x="210" y="127" key="#Project_Structure/51.23.1389.877@51.23.1389.877" timestamp="1579801661509" />
-    <state x="55" y="64" key="CommitChangelistDialog2" timestamp="1579806993803">
+    <state x="71" y="127" key="#Push_Image" timestamp="1579805525540">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579806993803" />
+    <state x="71" y="127" key="#Push_Image/49.23.1391.877@49.23.1391.877" timestamp="1579805525540" />
+    <state x="55" y="64" key="CommitChangelistDialog2" timestamp="1579805642379">
+      <screen x="49" y="23" width="1391" height="877" />
+    </state>
+    <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579805642379" />
     <state x="57" y="64" key="CommitChangelistDialog2/51.23.1389.877@51.23.1389.877" timestamp="1579802462007" />
-    <state width="370" height="230" key="GridCell.Tab.0.bottom" timestamp="1579803124630">
+    <state width="388" height="230" key="GridCell.Tab.0.bottom" timestamp="1579805212519">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1579803124630" />
-    <state width="370" height="230" key="GridCell.Tab.0.center" timestamp="1579803124628">
+    <state width="388" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1579805212519" />
+    <state width="388" height="230" key="GridCell.Tab.0.center" timestamp="1579805212517">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1579803124628" />
-    <state width="370" height="230" key="GridCell.Tab.0.left" timestamp="1579803124626">
+    <state width="388" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1579805212517" />
+    <state width="388" height="230" key="GridCell.Tab.0.left" timestamp="1579805212516">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1579803124626" />
-    <state width="370" height="230" key="GridCell.Tab.0.right" timestamp="1579803124629">
+    <state width="388" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1579805212516" />
+    <state width="388" height="230" key="GridCell.Tab.0.right" timestamp="1579805212518">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="370" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1579803124629" />
+    <state width="388" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1579805212518" />
     <state x="-135" y="178" key="SettingsEditor" timestamp="1579803550450">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
     <state x="-135" y="178" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1579803550450" />
     <state x="119" y="100" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1579801636872" />
-    <state x="49" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579806996365">
+    <state x="49" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579805644116">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state x="49" y="201" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1579806996365" />
+    <state x="49" y="201" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1579805644116" />
     <state x="51" y="201" key="Vcs.Push.Dialog.v2/51.23.1389.877@51.23.1389.877" timestamp="1579802370994" />
-    <state x="151" y="123" width="467" height="677" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1579806882571">
-      <screen x="49" y="23" width="1391" height="877" />
-    </state>
-    <state x="151" y="123" width="467" height="677" key="com.intellij.dvcs.ui.CompareBranchesDialog/49.23.1391.877@49.23.1391.877" timestamp="1579806882571" />
-    <state x="166" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579806828105">
-      <screen x="49" y="23" width="1391" height="877" />
-    </state>
-    <state x="166" y="181" key="git4idea.branch.GitSmartOperationDialog/49.23.1391.877@49.23.1391.877" timestamp="1579806828105" />
     <state x="189" y="260" key="git4idea.merge.GitPullDialog" timestamp="1579802125422">
       <screen x="51" y="23" width="1389" height="877" />
     </state>
     <state x="189" y="260" key="git4idea.merge.GitPullDialog/51.23.1389.877@51.23.1389.877" timestamp="1579802125422" />
-    <state x="243" y="314" key="git4idea.ui.GitTagDialog" timestamp="1579807036670">
-      <screen x="49" y="23" width="1391" height="877" />
-    </state>
-    <state x="243" y="314" key="git4idea.ui.GitTagDialog/49.23.1391.877@49.23.1391.877" timestamp="1579807036670" />
   </component>
 </project>
