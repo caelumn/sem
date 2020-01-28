@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2044cbcc-fd9a-418b-9a82-c16a01a2d445" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/test_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Johanna Schupp &lt;40457307@live.napier.ac.uk&gt;" />
         <option value="caelumn &lt;40457307@live.napier.ac.uk&gt;" />
       </list>
     </option>
@@ -75,20 +76,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
-      <module name="seMethods" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.napier.sem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -109,6 +97,14 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="main/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -117,13 +113,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="test_db/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="db/test_db/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.test_db/Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.main/Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +137,17 @@
         <serviceView>
           <option name="contentProportion" value="0.3955322" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -244,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579805055004</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding feature/ view-record for SQL Database">
+      <created>1580227339292</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580227339292</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +281,8 @@
     <MESSAGE value="badge update" />
     <MESSAGE value="POM Update" />
     <MESSAGE value="App Update_mongoDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="App Update_mongoDB" />
+    <MESSAGE value="adding feature/ view-record for SQL Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding feature/ view-record for SQL Database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="195" y="174" key="#Docker_Image" timestamp="1579805547797">
@@ -279,36 +301,40 @@
       <screen x="49" y="23" width="1391" height="877" />
     </state>
     <state x="71" y="127" key="#Push_Image/49.23.1391.877@49.23.1391.877" timestamp="1579805525540" />
-    <state x="55" y="64" key="CommitChangelistDialog2" timestamp="1579805642379">
+    <state x="649" y="272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580227684102">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state x="649" y="272" key="#com.intellij.fileTypes.FileTypeChooser/51.23.1389.877@51.23.1389.877" timestamp="1580227684102" />
+    <state x="381" y="47" key="CommitChangelistDialog2" timestamp="1580227338402">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579805642379" />
+    <state x="381" y="47" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1580227338402" />
     <state x="57" y="64" key="CommitChangelistDialog2/51.23.1389.877@51.23.1389.877" timestamp="1579802462007" />
-    <state width="1192" height="230" key="GridCell.Tab.0.bottom" timestamp="1580226875094">
+    <state width="989" height="230" key="GridCell.Tab.0.bottom" timestamp="1580228143355">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="1192" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1580226875094" />
-    <state width="1192" height="230" key="GridCell.Tab.0.center" timestamp="1580226875093">
+    <state width="989" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1580228143355" />
+    <state width="989" height="230" key="GridCell.Tab.0.center" timestamp="1580228143353">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="1192" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1580226875093" />
-    <state width="1192" height="230" key="GridCell.Tab.0.left" timestamp="1580226875093">
+    <state width="989" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1580228143353" />
+    <state width="989" height="230" key="GridCell.Tab.0.left" timestamp="1580228143352">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="1192" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1580226875093" />
-    <state width="1192" height="230" key="GridCell.Tab.0.right" timestamp="1580226875094">
+    <state width="989" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1580228143352" />
+    <state width="989" height="230" key="GridCell.Tab.0.right" timestamp="1580228143354">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state width="1192" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1580226875094" />
+    <state width="989" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1580228143354" />
     <state x="-135" y="178" key="SettingsEditor" timestamp="1579803550450">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
     <state x="-135" y="178" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1579803550450" />
     <state x="119" y="100" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1579801636872" />
-    <state x="51" y="201" key="Vcs.Push.Dialog.v2" timestamp="1580226062555">
-      <screen x="51" y="23" width="1389" height="877" />
+    <state x="251" y="187" key="Vcs.Push.Dialog.v2" timestamp="1580227344042">
+      <screen x="49" y="23" width="1391" height="877" />
     </state>
-    <state x="49" y="201" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1579805644116" />
+    <state x="251" y="187" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1580227344042" />
     <state x="51" y="201" key="Vcs.Push.Dialog.v2/51.23.1389.877@51.23.1389.877" timestamp="1580226062555" />
     <state x="189" y="260" key="git4idea.merge.GitPullDialog" timestamp="1579802125422">
       <screen x="51" y="23" width="1389" height="877" />
