@@ -23,12 +23,13 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Johanna Schupp &lt;40457307@live.napier.ac.uk&gt;" />
         <option value="caelumn &lt;40457307@live.napier.ac.uk&gt;" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/view-record" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -288,35 +289,45 @@
       <screen x="49" y="23" width="1391" height="877" />
     </state>
     <state x="71" y="127" key="#Push_Image/49.23.1391.877@49.23.1391.877" timestamp="1579805525540" />
-    <state x="55" y="64" key="CommitChangelistDialog2" timestamp="1579805642379">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state x="52" y="64" key="CommitChangelistDialog2" timestamp="1580651430172">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state x="52" y="64" key="CommitChangelistDialog2/46.23.1394.877@46.23.1394.877" timestamp="1580651430172" />
     <state x="55" y="64" key="CommitChangelistDialog2/49.23.1391.877@49.23.1391.877" timestamp="1579805642379" />
     <state x="57" y="64" key="CommitChangelistDialog2/51.23.1389.877@51.23.1389.877" timestamp="1579802462007" />
-    <state width="388" height="230" key="GridCell.Tab.0.bottom" timestamp="1579805212519">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state x="601" y="393" key="Github.Dialog.Accounts.Choose" timestamp="1580651455161">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state x="601" y="393" key="Github.Dialog.Accounts.Choose/46.23.1394.877@46.23.1394.877" timestamp="1580651455161" />
+    <state width="1352" height="230" key="GridCell.Tab.0.bottom" timestamp="1580651389564">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="230" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1580651389564" />
     <state width="388" height="230" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1579805212519" />
-    <state width="388" height="230" key="GridCell.Tab.0.center" timestamp="1579805212517">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state width="1352" height="230" key="GridCell.Tab.0.center" timestamp="1580651389562">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state width="1352" height="230" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1580651389562" />
     <state width="388" height="230" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1579805212517" />
-    <state width="388" height="230" key="GridCell.Tab.0.left" timestamp="1579805212516">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state width="1352" height="230" key="GridCell.Tab.0.left" timestamp="1580651389562">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state width="1352" height="230" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1580651389562" />
     <state width="388" height="230" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1579805212516" />
-    <state width="388" height="230" key="GridCell.Tab.0.right" timestamp="1579805212518">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state width="1352" height="230" key="GridCell.Tab.0.right" timestamp="1580651389563">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state width="1352" height="230" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1580651389563" />
     <state width="388" height="230" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1579805212518" />
     <state x="-135" y="178" key="SettingsEditor" timestamp="1579803550450">
       <screen x="49" y="23" width="1391" height="877" />
     </state>
     <state x="-135" y="178" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1579803550450" />
     <state x="119" y="100" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1579801636872" />
-    <state x="49" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579805644116">
-      <screen x="49" y="23" width="1391" height="877" />
+    <state x="97" y="182" key="Vcs.Push.Dialog.v2" timestamp="1580651444457">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
+    <state x="97" y="182" key="Vcs.Push.Dialog.v2/46.23.1394.877@46.23.1394.877" timestamp="1580651444457" />
     <state x="49" y="201" key="Vcs.Push.Dialog.v2/49.23.1391.877@49.23.1391.877" timestamp="1579805644116" />
     <state x="51" y="201" key="Vcs.Push.Dialog.v2/51.23.1389.877@51.23.1389.877" timestamp="1579802370994" />
     <state x="189" y="260" key="git4idea.merge.GitPullDialog" timestamp="1579802125422">
