@@ -33,6 +33,7 @@ public class App
      */
     public void connect()
     {
+
         try
         {
             // Load Database driver
